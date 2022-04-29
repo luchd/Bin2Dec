@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-family: monospace;
+    font-size: 60px;
+}
+
+section {
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+section div {
+    width: 100%;
+}
+
+section div input {
+    height: 30px;
+    padding: 3px;
+    width: 100%;
+}
+
+section div button {
+    width: 100%;
+    height: 50px;
+    margin: 9px 0;
+    padding: 6px 9px;
+    background-color: lightgreen;
+    transition: 0.6s;
+    border-radius: 3px;
+    border: 1px solid rgb(28, 121, 32);
+    color: black;
+    font-size: 21px;
+}
+
+section div button:hover {
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
